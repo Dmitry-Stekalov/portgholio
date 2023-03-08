@@ -1,0 +1,95 @@
+.casing {
+  margin: 0 auto;
+  max-width: 1366px;
+}
+
+.conteiner {
+  border: 1px solid black;
+}
+.conteiner .section-1 {
+  background-image: url(./img/block1/illustration.png);
+  background-repeat: no-repeat;
+  background-position: top 200px right 50px;
+  background-size: 647px 549px;
+  max-width: 1366px;
+  min-height: 768px;
+}
+.conteiner .section-1 .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 113px;
+}
+.conteiner .section-1 .about {
+  padding-left: 113px;
+  width: 504px;
+  display: flex;
+  flex-direction: column;
+}
+.conteiner .section-1 .about h1 {
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  padding-bottom: 32px;
+}
+.conteiner .section-1 .about p {
+  display: block;
+  max-width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  padding-bottom: 90px;
+}
+.conteiner .section-1 .about button {
+  width: 220px;
+  height: 56px;
+  background: #5A98D0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .conteiner .section-1 {
+    background-position: top 300px right 50px;
+    background-size: 392px 333px;
+  }
+  .conteiner .section-1 .head {
+    padding: 0px 30px;
+  }
+  .conteiner .section-1 .about {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .conteiner .section-1 {
+    background: none;
+    min-height: 500px;
+  }
+  .conteiner .section-1 .about {
+    max-width: 343px;
+  }
+  .conteiner .section-1 .about h1 {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  .conteiner .section-1 .about p {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .conteiner .section-1 .about button {
+    margin: 0 auto;
+  }
+}/*# sourceMappingURL=style.css.map */
